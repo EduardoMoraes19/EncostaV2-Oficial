@@ -100,7 +100,7 @@ section.topo-do-site .flex{
     color: white;
     margin: 40px 0;
     text-align: justify;
-    font-weight: bolder;
+    font-weight: normal;
 }
 
 .topo-do-site .img-topo-site img{
@@ -118,7 +118,6 @@ section.topo-do-site .flex{
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    filter: blur(5px);
 }
 
 @keyframes flutuar{
