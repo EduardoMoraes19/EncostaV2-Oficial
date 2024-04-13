@@ -143,6 +143,23 @@ section.lines{
     padding: 40px 4%;
 }
 
+section.lines .flex{
+    gap: 60px;
+}
+
 .lines-box{
     color: white;
+    font-size: 18px;
+    text-align: justify;
+    padding: 40px;
+    border: 2px solid #ffffff;
+}
+
+.lines-box i{
+    font-size: 70px;
+}
+
+.lines-box h3{
+    font-size: 28px;
+    margin: 15px 0 ;
 }
