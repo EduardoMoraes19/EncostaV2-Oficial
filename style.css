@@ -128,6 +128,8 @@ section.topo-do-site .flex{
     filter: opacity(0.5);
 }
 
+
+
 @keyframes flutuar{
     0%{
         top: 0;
@@ -136,6 +138,8 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
+
+
 
 /* ESTILO DAS LINES */
 
@@ -163,3 +167,6 @@ section.lines .flex{
     font-size: 28px;
     margin: 15px 0 ;
 }
+
+/*ESTILO GALERIA*/
+
