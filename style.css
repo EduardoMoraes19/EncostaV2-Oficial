@@ -144,7 +144,7 @@ section.topo-do-site .flex{
 /* ESTILO DAS LINES */
 
 section.lines{
-    padding: 40px 4%;
+    padding: 70px 4%;
 }
 
 section.lines .flex{
@@ -170,3 +170,29 @@ section.lines .flex{
 
 /*ESTILO GALERIA*/
 
+#galeria{
+    padding:60px 4%;
+}
+
+.swiper{
+   height: 500px;
+}
+
+.swiper-slide{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+  }
+
+
+/*ESTILO COMO CHEGAR*/
+
+.localizacao{
+    text-align: center;
+}
