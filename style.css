@@ -145,6 +145,7 @@ section.topo-do-site .flex{
 
 section.lines{
     padding: 70px 4%;
+    background-image: linear-gradient(to right, #703F23, #63381F );
 }
 
 section.lines .flex{
@@ -172,6 +173,7 @@ section.lines .flex{
 
 .galeria{
     padding:60px 4%;
+    background-image: linear-gradient(to right, #703F23, #63381F );
 }
 
 .swiper{
@@ -195,4 +197,5 @@ section.lines .flex{
 
 .localizacao{
     text-align: center;
+    background-image: linear-gradient(to right, #703F23, #63381F );
 }
