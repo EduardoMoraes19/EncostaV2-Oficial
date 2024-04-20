@@ -8,16 +8,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body {
   background-color: black;
   height: 100vh;
-}
-
-.menu {
-  max-width: 1280px;
-  margin: 0 auto;
 }
 
 .flex {
@@ -44,29 +41,40 @@ body {
 /*ESTILO DO CABEÇALHO*/
 
 header {
-  padding: 40px 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px ;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-header > .menu {
+.menu-desktop{
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  backdrop-filter: blur(1px);
+  width: 60%;
+  padding: 1%;
+  height: 40%;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.bi{
+  font-size: 25px;
 }
 
 header a {
   color: #bebcbc;
-  text-decoration: none;
   display: inline-block;
   transition: 0.2s;
+  font-weight: bolder;
 }
 
 header a:hover {
   color: white;
   transform: scale(1.05);
-}
-
-header nav ul {
-  list-style-type: none;
 }
 
 header nav ul li {
