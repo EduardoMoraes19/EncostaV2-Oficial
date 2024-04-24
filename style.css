@@ -162,8 +162,10 @@ section.lines .flex {
   font-size: 18px;
   text-align: justify;
   padding: 40px;
-  border: 2px solid #ffffff;
+  border: 2px solid #ffffff; 
 }
+
+
 
 .lines-box i {
   font-size: 70px;
@@ -202,5 +204,6 @@ section.lines .flex {
 .localizacao {
   text-align: center;
   background-color: #2d241f;
+  margin: 0px;
 }
 
