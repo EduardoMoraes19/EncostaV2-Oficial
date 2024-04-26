@@ -149,11 +149,9 @@ section.topo-do-site .flex {
 .img-background {
   width: 100%;
   height: 100vh;
-  /* z-index: -1; */
   /* background-image: url("images/jump-red.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
-  /* opacity: 0.2; */
 }
 
 .imagem_bicileta {
@@ -180,15 +178,17 @@ section.topo-do-site .flex {
 /* ESTILO DAS LINES */
 
 section.lines {
-  padding: 70px 4%;
+  padding: 70px;
+  padding-bottom: -2%;
   background-color: #2d241f;
 }
 
 section.lines .flex {
-  gap: 60px;
+  gap: 50px;
 }
 
 .lines-box {
+  width: 50%;
   color: white;
   font-size: 18px;
   text-align: justify;
@@ -209,12 +209,14 @@ section.lines .flex {
 /*ESTILO GALERIA*/
 
 .galeria {
-  padding: 60px 4%;
+  padding: 70px;
+  padding-bottom: -2%;
   background-color: #2d241f;
 }
 
 .swiper {
   height: 500px;
+  width: 60%;
 }
 
 .swiper-slide {
