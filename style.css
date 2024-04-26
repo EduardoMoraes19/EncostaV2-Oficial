@@ -13,13 +13,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(5, 5, 5);
   height: 100vh;
 }
 
 .flex {
   display: flex;
-  padding: 60px;
 }
 
 .btn-contato button {
@@ -48,6 +47,7 @@ header {
   padding: 10px ;
   max-width: 1280px;
   margin: 0 auto;
+  border: 2px solid white;
 }
 
 .menu-desktop{
@@ -85,6 +85,7 @@ header a:hover {
 header nav ul li {
   display: inline-block;
   padding: 0 40px;
+  
 }
 
 .btn-contato:hover {
@@ -95,13 +96,18 @@ header nav ul li {
 /*ESTILO DO TOPO DO SITE*/
 
 section.topo-do-site {
-  padding: 40px 4%;
+  padding: 10px;
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  border: 2px solid rgb(255, 1, 1);
 }
 
 section.topo-do-site .flex {
   align-items: center;
   justify-content: center;
   gap: 90px;
+  
   
 }
 
@@ -123,10 +129,15 @@ section.topo-do-site .flex {
   font-weight: normal;
 }
 
-.topo-do-site .img-topo-site img {
+.img-topo-site img {
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
+  /* width: 90%; */
+  /* height: 70%; */
+  right: 0;
+  border: #f26457 solid 4px;
 }
+
 
 .img-background {
   width: 100%;
