@@ -277,6 +277,10 @@ footer{
   transition:all 0.4;
 }
 
+#instagram {
+  background: linear-gradient(#813CC9, #CF3B9D, #F2B950);
+}
+
 #footer_social_media .footer-link:hover{
   opacity: 0.8;
 }
@@ -323,5 +327,7 @@ footer{
   background-color: #f26457;
 }
 
-
+.ride{
+  font-size: 20px;
+}
 
