@@ -241,6 +241,7 @@ section.lines .flex {
   text-align: center;
   background-color: #2d241f;
   margin: 0px;
+  padding-bottom: 60px;
 }
 
 /*FOOTER*/
@@ -335,5 +336,6 @@ footer{
 /*SCROLLING*/
 
 #galeria{
-  
-}
+    scroll-behavior: smooth;
+    transition-duration: 2s; /* Velocidade de transição */
+  }
