@@ -26,7 +26,7 @@ h1{
 .card{
     width:300px;
     height:500px;
-    background-color:#202020;
+    background-color:#ffffff;
     border-radius: 15px;
     margin-top: 100px;
 }
@@ -39,7 +39,20 @@ h1{
 }
 
 .titulo-card{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.texto-card{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.button-card{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
 }
