@@ -5,10 +5,9 @@
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     text-decoration: none;
-  }
+    }
 
 /* body{
-    background-color: #2d241f;
     background-image: url(assets/podio-novo.JPEG);
 }
 
@@ -20,46 +19,74 @@ body::before{
     border:  #f26457 solid 4px;
     background-size: cover; 
     filter: opacity(0.2);
-    z-index: -1;
-} */
+}  */
+
+
 body {
-    content: "";
-    position: absolute;
+    /* content: ""; */
     width: 100%;
     height: 100%;
-    border:  #f26457 solid 4px;
-    background-size: cover; 
-    /* filter: opacity(0.2); */
-    z-index: -1;
-    background-image: url(assets/podio-novo.JPEG);
+    /* border:  #f26457 solid 4px; */
+    background-size: cover;
+    background-position: center; 
+    background-color: #2d241f;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
 }
-
+#teste {
+    position: absolute;
+    opacity: 0.6;
+    z-index: -10;
+}
+#teste img {
+    width: 100vW;
+    height: 100vh;
+    background-size: contain;
+    /* overflow: hidden; */
+}
 .conteiner{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    border:  #ac57f2 solid 4px;
-    background-size: c;
-    opacity: 0.7;
-    
+    /* border:  #ac57f2 solid 4px; */
+    background-position: center;
 }
 
 .background-eventos {
     width: 100%;
     height: 100%;
-    /* background-color: #2d241f; */
-    border:  #17c100 solid 4px;
+    justify-items: center;
+    justify-content: center;
+    margin: 2 auto;
+    padding: auto;
+    /* border:  #17c100 solid 4px; */
 }
 
+#testandoo {
+    margin-top: 10%;
+    /* border: 1px solid  #2d241f5b; */
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
 .card{
+    
     justify-content: center;
     width:300px;
-    height:540px;
+    height:500px;
     background-color:#ffffff;
     border-radius: 15px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     box-shadow: 013px 9px 24px 1px rgba(0,0,0,0.75);
+    z-index: -1;    
+    /* filter: blur(2px); */
+    /* margin: ; */
 }
 
 h1{
@@ -112,5 +139,5 @@ h1{
 .button-card{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
