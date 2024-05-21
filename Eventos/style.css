@@ -7,22 +7,59 @@
     text-decoration: none;
   }
 
-body{
+/* body{
     background-color: #2d241f;
+    background-image: url(assets/podio-novo.JPEG);
 }
 
 body::before{
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background-image: url(assets/jump-trek.jpg);
-    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    border:  #f26457 solid 4px;
+    background-size: cover; 
     filter: opacity(0.2);
     z-index: -1;
-    background-position: center;
+} */
+body {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border:  #f26457 solid 4px;
+    background-size: cover; 
+    /* filter: opacity(0.2); */
+    z-index: -1;
+    background-image: url(assets/podio-novo.JPEG);
+}
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border:  #ac57f2 solid 4px;
+    background-size: c;
+    opacity: 0.7;
+    
+}
+
+.background-eventos {
+    width: 100%;
+    height: 100%;
+    /* background-color: #2d241f; */
+    border:  #17c100 solid 4px;
+}
+
+.card{
+    justify-content: center;
+    width:300px;
+    height:540px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 013px 9px 24px 1px rgba(0,0,0,0.75);
 }
 
 h1{
@@ -32,20 +69,6 @@ h1{
     font-size: 50px;
     font-weight: bolder;
     
-}
-
-.conteiner{
-    display: flex;
-    justify-content: center;
-}
-
-.card{
-    width:300px;
-    height:540px;
-    background-color:#ffffff;
-    border-radius: 15px;
-    margin-top: 100px;
-    box-shadow: 013px 9px 24px 1px rgba(0,0,0,0.75);
 }
 
 .liga{
