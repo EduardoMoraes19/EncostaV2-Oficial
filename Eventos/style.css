@@ -107,6 +107,8 @@ h1{
 
 .encosta-icon-card{
     width: 300px;
+    /*padding-bottom: ;
+    padding-top: ;*/
 }
 
 
@@ -126,7 +128,7 @@ h1{
 
 .btn{
     padding: 10px 30px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     border-radius: 10px;
     border: none;
