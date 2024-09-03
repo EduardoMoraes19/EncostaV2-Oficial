@@ -204,7 +204,11 @@ section.lines .flex {
 }
 
 .formato-referencia{
-  list-style-type: disc;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background: #000000;
+  text-align: center;
 }
 
 .lines-box i {
